@@ -1,0 +1,217 @@
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/Kronos"))()
+
+local window = library:Window({
+   Title = "Raijins Script Libary - Made By Raijin and Ent ❤",
+   Accent = Color3.fromRGB(250,250,250),
+   Logo = 2682121931,
+   ToggleKey = Enum.KeyCode.LeftAlt
+})
+
+local tab = window:NewTab({
+   Logo = 4483345998
+})
+
+local tabsection = tab:TabSection({
+   Title = "Anime Games"
+})
+
+local column = tabsection:AddColumn({
+   Title = "PVP Games"
+})
+
+
+
+
+
+
+-- Blox Fruits
+
+
+
+
+local section = column:Section({
+   Title = "Blox Fruits"
+})
+
+section:Button({
+   Text = "Makuro Hub (Key or No Key)",
+   Callback = function()
+       loadstring(game:HttpGet"https://raw.githubusercontent.com/xQuartyx/DonateMe/main/ScriptLoader")()
+   end
+})
+
+section:Button({
+   Text = "HoHo Hub (Key or No Key)",
+   Callback = function()
+       loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
+   end
+})
+
+section:Button({
+   Text = "Neva Hub (No Key)",
+   Callback = function()
+       loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
+   end
+})
+
+section:Button({
+   Text = "Mango Hub (No Key)",
+   Callback = function()
+       getgenv().WaterMark = false
+loadstring(game:HttpGet("https://gitlab.com/L1ZOT/mango-hub/-/raw/main/Mango-Bloxf-Fruits-Beta"))()
+   end
+})
+
+
+--New Genre
+
+
+
+
+
+local column = tabsection:AddColumn({
+   Title = "RPG Games"
+})
+local section1 = column:Section({
+   Title = "World Zero"
+})
+
+section1:Button({
+   Text = "World Zero v4.0 (No Key)",
+   Callback = function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/HeiKe2022/wz-beta/main/combine.lua"))()
+   end
+})
+
+section1:Button({
+   Text = "Jacks Hub? (Key)",
+   Callback = function()
+       loadstring(game:HttpGet"https://thedragonslayer2.github.io")()
+   end
+})
+
+local section1 = column:Section({
+   Title = "Your Bizarre Adventure"
+})
+
+section1:Button({
+   Text = "Kolgie Hub (No Key)",
+   Callback = function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/kolgie/YBA-GUI/main/yba-gui-obfuscated.lua"))()
+   end
+})
+
+section1:Button({
+   Text = "Bitch Boy v1 (No Key)",
+   Callback = function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/zakater5/LuaRepo/main/YBA/MainGui.lua"))()
+   end
+})
+
+local section1 = column:Section({
+   Title = "Shindo Life"
+})
+
+section1:Button({
+   Text = "Premier Hub (No Key)",
+   Callback = function()
+       loadstring(game:HttpGet('https://scripts.luawl.com/13551/Premier.lua'))()
+   end
+})
+
+section1:Button({
+   Text = "Furk Hub (No Key)",
+   Callback = function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/UltraStuff/scripts2/main/shindo", true))()
+   end
+})
+
+
+
+
+
+--new genre
+
+
+
+
+local column = tabsection:AddColumn({
+   Title = "TD Games"
+})
+
+local section1 = column:Section({
+   Title = "Anime Adventures"
+})
+
+section1:Button({
+   Text = "Auto All Codes (No Key Or Menu)",
+   Callback = function()
+       loadstring(game:HttpGet"https://pastebin.com/raw/b3g5Cm5B")()
+   end
+})
+
+section1:Button({
+   Text = "TrapHub (No Key)",
+   Callback = function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/TrapstarKSSKSKSKKS/Main/main/TrapHub.lua"))()
+   end
+})
+
+section1:Button({
+   Text = "Arpon Hub? (No Key)",
+   Callback = function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/ArponAG/Scripts/main/AnimeAdventures.lua"))()
+   end
+})
+
+local section1 = column:Section({
+   Title = "All Star Tower Defense"
+})
+
+section1:Button({
+   Text = "Furk Hub (Key or No Key)",
+   Callback = function()
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/UltraStuff/scripts2/main/allstar", true))() 
+   end
+})
+
+section1:Button({
+   Text = "River Hub (No Key)",
+   Callback = function()
+pcall(function()
+   loadstring(game:HttpGet("http://riverhub.xyz/" .. tostring(game.PlaceId) .. ".lua"))()
+end)
+   end
+})
+
+
+
+
+
+--New genre
+
+
+
+
+local column = tabsection:AddColumn({
+   Title = "Simulators"
+})
+local section1 = column:Section({
+   Title = "Pet Sim X"
+})
+
+section1:Button({
+   Text = "Mango Hub (Key)",
+   Callback = function()
+       getgenv().WaterMark = true
+loadstring(game:HttpGet("https://gitlab.com/L1ZOT/mango-hub/-/raw/main/Mango-Bloxf-Fruits-Beta"))()
+ end
+})
+
+section1:Button({
+   Text = "Pasta Hub (No Key)",
+   Callback = function()
+       getgenv().WaterMark = true
+loadstring(game:HttpGet("https://rawscripts.net/raw/CATS-or-Pet-Simulator-X!-Pasta-v2-6841"))()
+ end
+})
